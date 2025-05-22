@@ -5,7 +5,19 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td><img src="https://github.com/harshjuly12/Customer-Segmentation-Using-KMeans/assets/112745312/031eec24-9af7-4a8e-8519-168965eacfea" width="80" style="margin-right: 10;"></td>
+    <td><h1 style="margin: 0;">Consumer Clustering</h1></td>
+  </tr>
+</table>
+
+---
+
+**Consumer Clustering** is a machine learning project that segments retail customers into distinct groups based on their spending behavior using the K-Means clustering algorithm. This segmentation can help businesses understand customer personas and optimize marketing strategies.
+
 ## Table of Contents
+
 1. [Project Overview](#project-overview)
 2. [Dataset](#dataset)
 3. [Project Structure](#project-structure)
@@ -14,67 +26,83 @@
 6. [Usage](#usage)
 7. [Analysis and Results](#analysis-and-results)
 8. [Contributing](#contributing)
-9. [License](#license)
-10. [Author](#author)
+9. [Built By](#built-by)
 
 ## Project Overview
-CustomerSegmentationUsingKMeans is a project that demonstrates customer segmentation using the K-means clustering algorithm. The goal is to group customers of a retail store based on their purchase history and behavior.
+
+**ConsumerClustering** is designed to demonstrate how customer segmentation can be achieved using unsupervised learning. Using the K-means clustering algorithm, customers of a retail store are grouped based on key behavioral features such as income and spending score.
 
 ## Dataset
-The dataset used for this project can be found on [Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python). It contains the following columns:
-- `CustomerID`: Unique identifier for each customer
-- `Gender`: Gender of the customer
-- `Age`: Age of the customer
-- `Annual Income (k$)`: Annual income of the customer in thousands of dollars
-- `Spending Score (1-100)`: Spending score assigned by the store based on customer behavior
+
+The dataset used for this project is publicly available on [Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python). It includes:
+
+* `CustomerID`: Unique identifier for each customer
+* `Gender`: Gender of the customer
+* `Age`: Age of the customer
+* `Annual Income (k$)`: Annual income in thousands of dollars
+* `Spending Score (1-100)`: Store-assigned score based on spending behavior
 
 ## Project Structure
-The repository contains the following files:
-- `CustomerSegmentationUsingKMeans.ipynb`: Jupyter Notebook with the complete analysis and K-means clustering implementation
-- `Mall_Customers.csv`: Dataset used for the analysis
+
+```
+ConsumerClustering/
+├── CustomerSegmentationUsingKMeans.ipynb   # Full notebook with EDA and clustering
+├── Mall_Customers.csv                      # Input dataset
+└── README.md                               # Project documentation
+```
 
 ## Requirements
-To run the project, you need the following libraries:
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Plotly
-- Scikit-learn
+
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Plotly
+* Scikit-learn
 
 ## Installation
-1. **Clone the repo:**
-   ```sh
-   git clone https://github.com/your-username/CustomerSegmentationUsingKMeans.git
-   cd CustomerSegmentationUsingKMeans
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/harshporwal033/ConsumerClustering.git
+   cd ConsumerClustering
    ```
 
-2. **Install the required Python packages:**
-   ```sh
+2. Install the dependencies:
+
+   ```bash
    pip install numpy pandas matplotlib seaborn plotly scikit-learn
    ```
 
 ## Usage
-**jupyter notebook CustomerSegmentationUsingKMeans.ipynb**
+
+To run the notebook:
+
+```bash
+jupyter notebook CustomerSegmentationUsingKMeans.ipynb
+```
 
 ## Analysis and Results
-The notebook contains the following steps:
-1. Importing Libraries: Importing necessary libraries for analysis and visualization.
-2. Data Exploration: Exploring the dataset to understand the distribution and relationships between different variables.
-3. Data Preprocessing: Preparing the data for clustering by scaling the features.
-4. K-means Clustering: Implementing K-means clustering to group customers into segments.
-5. Visualization: Visualizing the clusters to interpret the results.
+
+The notebook walks through:
+
+1. **Library Imports** – Bringing in all necessary packages
+2. **Data Exploration** – Understanding data distribution, trends
+3. **Preprocessing** – Feature scaling for accurate clustering
+4. **Modeling** – Applying K-Means and determining optimal K
+5. **Visualization** – Plotting clusters with Seaborn & Matplotlib
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Feel free to fork this repository and make your own improvements. Contributions that enhance performance, visuals, or interpretation are welcome!
 
-## Author
-For any questions or suggestions, please contact:
-- Harsh Singh: [harshjuly12@gmail.com](harshjuly12@gmail.com)
-- GitHub: [harshjuly12](https://github.com/harshjuly12)
+## Built By
+
+**Harsh Porwal**
+
+[GitHub Repo Link](https://github.com/harshporwal033/ConsumerClustering)
+
 
 
 
