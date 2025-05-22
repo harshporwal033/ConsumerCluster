@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td><img src="https://github.com/harshjuly12/Customer-Segmentation-Using-KMeans/assets/112745312/031eec24-9af7-4a8e-8519-168965eacfea" width="80" style="margin-right: 10;"></td>
-    <td><h1 style="margin: 0;">Consumer Clustering with K-Means</h1></td>
+    <td><h1 style="margin: 0;">ConsumerCluster</h1></td>
   </tr>
 </table>
 
